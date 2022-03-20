@@ -6,7 +6,7 @@ require("navbar.html");
 
 	<div class="container bgColor">
         	<main role="main" class="pb-3">
-                <h1>Hello world</h1>
+                
 
             
 		</main>
