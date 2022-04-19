@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
 session_start();
-//if (isset($_SESSION['id']))
 ?>
 
 <html>
@@ -36,6 +35,9 @@ session_start();
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="logout.php">Logout</a>
             </li>
           </ul>
         </div>

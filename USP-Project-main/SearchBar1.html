@@ -22,7 +22,7 @@
                     <ul class="navbar-nav flex-grow-1">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="PLACEHOLDER.php">Home</a>
+                            <a class="nav-link text-light" href="HomePage.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="PLACEHOLDER.php">Search</a>
@@ -59,10 +59,10 @@
     <!-----Search for a career --->
 
     <div class="input-group">
-        <form action="searchcSQL.php" method="POST" autocomplete="off">
+        <form action="searchcareerresult.php" method="POST" autocomplete="off">
         <div class="form-outline">
             <input type="search" class="form-control" id="searchbox" cols="30" rows="10" placeholder="Enter text"
-                style="height: 30px ; width: 450px">
+                style="height: 30px ; width: 450px" name="career">
 
             <label class="form-label" for="searchbox" style="font-size: 20px; position: relative; bottom:100px;">Search
                 for a career</label>
@@ -87,9 +87,9 @@
     <div class="input group">
 
         <div class="form-outline">
-            <form action="searchsSQL.php" method="POST" autocomplete="off">
+            <form action="searchstoryresult.php" method="POST" autocomplete="off">
             <input type="search" class=form-control id="searchbox" cols="30" rows="10" placeholder="Enter text"
-                style="height: 30px ; width: 460px ; position: relative; bottom: 135px;  left:650px; ">
+                style="height: 30px ; width: 460px ; position: relative; bottom: 135px;  left:650px; " name="story">
 
             <label class="form-label" for="searchbox"
                 style="font-size: 20px; position: relative; bottom: 235px;  left:650px;  ">Search for a story</label>
@@ -114,12 +114,14 @@
 
 
 <div>
+    <form action="CreateStory.php" method="POST" autocomplete="off">
     <p1 style=" font-size: 20px;position: relative; bottom: 50px;  left:210px;">Create a Story:</p1>
     <button type="submit" class="btn btn-primary"
         style="font-size: 20px; position: relative; bottom: 50px;  left:275px; ">
         Create
     </button>
 </div>
+</form>
 </body>
 
 
